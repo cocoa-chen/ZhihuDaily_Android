@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.os.Message;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -28,6 +29,7 @@ import java.util.List;
 public class MainActivity extends ActionBarActivity {
 
     public static final int UPDATE_STORY = 0;
+    public static final int REQUEST_FAILED = 1;
     private List<TopStory> topStories;
     private List<TodayStory> todayStories;
     private ListView listView;
@@ -67,6 +69,11 @@ public class MainActivity extends ActionBarActivity {
                     viewPager.setCurrentItem(0);
                 }
                     break;
+                case REQUEST_FAILED:
+                {
+                    Toast.makeText(MainActivity.this, "获取数据失败,请稍后重试!", Toast.LENGTH_SHORT).show();
+                }
+                    break;
             }
         }
     };
@@ -103,8 +110,10 @@ public class MainActivity extends ActionBarActivity {
 
             @Override
             public void onError(Exception e) {
-//                Log.d("MyLog","数据请求失败:" + e);
-                Toast.makeText(MainActivity.this,"获取数据失败,请稍后重试!",Toast.LENGTH_SHORT).show();
+//                Log.d("MyLog", "数据请求失败:" + e);
+                Message message = new Message();
+                message.what = REQUEST_FAILED;
+                handler.sendMessage(message);
             }
         });
     }
@@ -137,7 +146,7 @@ public class MainActivity extends ActionBarActivity {
             message.what = UPDATE_STORY;
             handler.sendMessage(message);
         }catch (Exception e) {
-            Toast.makeText(MainActivity.this,"数据解析失败,请稍后重试!",Toast.LENGTH_SHORT).show();
+            Log.d("MyLog","数据解析失败:" + e);
         }
     }
 

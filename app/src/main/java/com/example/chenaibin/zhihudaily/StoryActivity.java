@@ -28,6 +28,7 @@ import java.util.ArrayList;
 public class StoryActivity extends Activity {
 
     private static final int SHOW_STORY = 0;
+    private static final int REQUEST_FAILED = 1;
     private WebView webView;
     private ImageView imageView;
     private TextView textView;
@@ -48,6 +49,11 @@ public class StoryActivity extends Activity {
                     String title = bundle.getString("title");
                     Picasso.with(StoryActivity.this).load(imageUrl).into(imageView);
                     textView.setText(title);
+                }
+                    break;
+                case REQUEST_FAILED:
+                {
+                    Toast.makeText(StoryActivity.this, "获取详情失败,请稍后重试!", Toast.LENGTH_SHORT).show();
                 }
                     break;
             }
@@ -85,14 +91,16 @@ public class StoryActivity extends Activity {
         HttpUtil.sendHttpRequest(address,new HttpCallbackListener() {
             @Override
             public void onFinish(String response) {
-                Log.d("MyLog", "详情请求成功:" + response);
+//                Log.d("MyLog", "详情请求成功:" + response);
                 handleStoryDetailInfoResponse(response);
             }
 
             @Override
             public void onError(Exception e) {
                 Log.d("MyLog","详情请求失败:" + e);
-                Toast.makeText(StoryActivity.this, "获取详情失败,请稍后重试!", Toast.LENGTH_SHORT).show();
+                Message msg = new Message();
+                msg.what = REQUEST_FAILED;
+                handler.sendMessage(msg);
             }
         });
     }
@@ -124,7 +132,7 @@ public class StoryActivity extends Activity {
             msg.setData(bundle);
             handler.sendMessage(msg);
         }catch (Exception e) {
-            Toast.makeText(StoryActivity.this,"详情解析失败,请稍后重试!",Toast.LENGTH_SHORT).show();
+            Log.d("MyLog","详情解析失败:" + e);
         }
     }
 
