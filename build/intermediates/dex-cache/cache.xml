@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/chenaibin/Work/我的Github/ZhihuDaily_Android/app/libs/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/chenaibin/Work/我的Github/ZhihuDaily_Android/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-48550eebfddf8c9191ba9f988840cebff7c79906.jar" />
+    </item>
+    <item
+        jar="/Users/chenaibin/Work/我的Github/ZhihuDaily_Android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="/Users/chenaibin/Work/我的Github/ZhihuDaily_Android/app/build/intermediates/pre-dexed/debug/classes-ef5a7d40ba65dfdcd2d35adea0131a69f103f5a9.jar" />
+    </item>
+    <item
+        jar="/Users/chenaibin/Work/我的Github/ZhihuDaily_Android/app/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/Users/chenaibin/Work/我的Github/ZhihuDaily_Android/app/build/intermediates/pre-dexed/debug/gson-2.2.4-69c58fafb0a94e0e491cef042a4ad29553e1b4bd.jar" />
+    </item>
+    <item
+        jar="/Users/chenaibin/Work/AndroidWorkspace/ZhihuDaily/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="/Users/chenaibin/Work/AndroidWorkspace/ZhihuDaily/app/build/intermediates/pre-dexed/debug/classes-6576fc6144b057dc509682f2196d409e1db9117a.jar" />
+    </item>
+    <item
+        jar="/Users/chenaibin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="/Users/chenaibin/Work/AndroidWorkspace/ZhihuDaily/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-6533298aee8436f78e054bff1ff391a477914c9e.jar" />
+    </item>
+    <item
+        jar="/Users/chenaibin/Work/AndroidWorkspace/ZhihuDaily/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="/Users/chenaibin/Work/AndroidWorkspace/ZhihuDaily/app/build/intermediates/pre-dexed/debug/classes-3f77cc1b15f1fcb93968b1b77d1d5a8e196f9cdc.jar" />
+    </item>
+    <item
+        jar="/Users/chenaibin/Work/AndroidWorkspace/ZhihuDaily/app/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/Users/chenaibin/Work/AndroidWorkspace/ZhihuDaily/app/build/intermediates/pre-dexed/debug/gson-2.2.4-c6181f3f16583d94dd9f858628b6f3666e51c7fe.jar" />
+    </item>
+    <item
+        jar="/Users/chenaibin/Work/AndroidWorkspace/ZhihuDaily/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="/Users/chenaibin/Work/AndroidWorkspace/ZhihuDaily/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-4e1c96847bace017e4c19bdc67acc342f7457b1e.jar" />
+    </item>
+    <item
+        jar="/Users/chenaibin/Work/AndroidWorkspace/ZhihuDaily/app/libs/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/chenaibin/Work/AndroidWorkspace/ZhihuDaily/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-90c90f8f8e1062fdf5cc033f25e234ddddd75fbb.jar" />
+    </item>
+    <item
+        jar="/Users/chenaibin/Work/我的Github/ZhihuDaily_Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="/Users/chenaibin/Work/我的Github/ZhihuDaily_Android/app/build/intermediates/pre-dexed/debug/classes-04c2eec512f9b4a2129d748b48d290519e48e2dc.jar" />
+    </item>
+    <item
+        jar="/Users/chenaibin/Work/我的Github/ZhihuDaily_Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="/Users/chenaibin/Work/我的Github/ZhihuDaily_Android/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-ced1f48160f4def5a3e71c79914664f049cde6fd.jar" />
+    </item>
+
+</items>
